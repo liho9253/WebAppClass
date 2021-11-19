@@ -34,7 +34,7 @@
                 <StaticMenuItemStyle HorizontalPadding="5px" VerticalPadding="2px" />
                 <StaticSelectedStyle BackColor="#507CD1" />
             </asp:Menu>
-            <asp:Panel ID="Panel3" runat="server">
+            <asp:Panel ID="Panel3" runat="server"> 
                 <asp:MultiView ID="mv_Show" runat="server">
                     <asp:View ID="View1" runat="server">
                         點選制下個頁籤內<br/>

@@ -16,7 +16,7 @@ namespace WebApp_F
         protected void Button1_Click(object sender, EventArgs e){
             Panel1.Visible = !(Panel1.Visible);
         }
-
+         
         protected void Button2_Click(object sender, EventArgs e){
             Panel2.Visible = !(Panel2.Visible);
         }
