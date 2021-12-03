@@ -52,13 +52,7 @@
         <asp:Label ID="lb_Msg4" runat="server" Text=""></asp:Label>
         <br/>
 
-        <asp:Label runat="server" Text="請輸入偶數"></asp:Label>
-        <asp:TextBox ID="tb_Number" runat="server"></asp:TextBox>
-        <asp:CustomValidator ID="cvr_id" runat="server" ErrorMessage="輸入錯誤" ControlToValidate="tb_Number" 
-            ForeColor="Maroon" OnServerValidate="cvr_id_ServerValidate"></asp:CustomValidator>
-        <br />
-        <asp:Button ID="btn_Submit5" runat="server" Text="送出" OnClick="btn_Submit5_Click" />
-        <asp:Label ID="lb_Msg5" runat="server" Text=""></asp:Label>
+
     </form>
 </body>
 </html>
