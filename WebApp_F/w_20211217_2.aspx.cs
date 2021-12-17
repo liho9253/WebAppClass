@@ -11,10 +11,9 @@ namespace WebApp_F{
 
         }
 
-        protected void dd1_Sort_SelectedIndexChanged(object sender, EventArgs e){
-            gv_Show.Sort(dd1_Sort.SelectedValue, SortDirection.Descending);
+        protected void dd1_sort_SelectedIndexChanged(object sender, EventArgs e){
+            gv_show.Sort(dd1_sort.SelectedValue, SortDirection.Descending);
         }
-
 
     }
 }

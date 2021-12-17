@@ -33,21 +33,30 @@ namespace WebApp_F
         protected global::System.Web.UI.WebControls.SqlDataSource sds_Users;
 
         /// <summary>
-        /// gv_Show 控制項。
+        /// gv_show 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.GridView gv_Show;
+        protected global::System.Web.UI.WebControls.GridView gv_show;
 
         /// <summary>
-        /// dd1_Sort 控制項。
+        /// dd1_sort 控制項。
         /// </summary>
         /// <remarks>
         /// 自動產生的欄位。
         /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
         /// </remarks>
-        protected global::System.Web.UI.WebControls.DropDownList dd1_Sort;
+        protected global::System.Web.UI.WebControls.DropDownList dd1_sort;
+
+        /// <summary>
+        /// lb_Msg 控制項。
+        /// </summary>
+        /// <remarks>
+        /// 自動產生的欄位。
+        /// 若要修改，請將欄位宣告從設計工具檔案移到程式碼後置檔案。
+        /// </remarks>
+        protected global::System.Web.UI.WebControls.Label lb_Msg;
     }
 }
