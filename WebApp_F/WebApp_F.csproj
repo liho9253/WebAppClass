@@ -89,6 +89,8 @@
     <Content Include="w_20211203_7.aspx" />
     <Content Include="w_20211210.aspx" />
     <Content Include="w_20211210_2.aspx" />
+    <Content Include="w_20211217.aspx" />
+    <Content Include="w_20211217_2.aspx" />
   </ItemGroup>
   <ItemGroup>
     <Compile Include="ch5-8.aspx.cs">
@@ -227,6 +229,20 @@
     </Compile>
     <Compile Include="w_20211210_2.aspx.designer.cs">
       <DependentUpon>w_20211210_2.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="w_20211217.aspx.cs">
+      <DependentUpon>w_20211217.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="w_20211217.aspx.designer.cs">
+      <DependentUpon>w_20211217.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="w_20211217_2.aspx.cs">
+      <DependentUpon>w_20211217_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="w_20211217_2.aspx.designer.cs">
+      <DependentUpon>w_20211217_2.aspx</DependentUpon>
     </Compile>
   </ItemGroup>
   <ItemGroup>

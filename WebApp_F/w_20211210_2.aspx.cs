@@ -11,7 +11,7 @@ namespace WebApp_F{
         protected void Page_Load(object sender, EventArgs e){
             string s_ConnStr = "Data Source=(localdb)\\MSSQLLocalDB;" +
                                 "Initial Catalog = Test;" +
-                                "Integrated Security = True;" +
+                                "Integrated Security = True;"    +
                                 "Connect Timeout = 30;"+
                                 "Encrypt = False;" +
                                 "TrustServerCertificate=False;" +
@@ -22,6 +22,7 @@ namespace WebApp_F{
             try {
                 SqlConnection o_Conn = new SqlConnection(s_ConnStr);
                 SqlDataAdapter o_A = new SqlDataAdapter("Select * from Users", o_Conn);
+                
                 DataSet o_d = new DataSet();
                 o_A.Fill(o_d, "ds_Res");
                 gv_DataShow.DataSource = o_d;

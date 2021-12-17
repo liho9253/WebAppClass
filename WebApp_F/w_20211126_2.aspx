@@ -45,7 +45,7 @@
 
         <asp:TextBox ID="tb_t4" runat="server"></asp:TextBox>
         <asp:RegularExpressionValidator ID="rev_id" runat="server" ErrorMessage="不符合格式" 
-            ControlToValidate="tb_t4" ValidationExpression="^09\d{2}-\d{3}-\d{3}$" ForeColor="Maroon"></asp:RegularExpressionValidator>
+            ControlToValidate="tb_t4" ValidationExpression="^{2,16}$" ForeColor="Maroon"></asp:RegularExpressionValidator>
         <br/>
         <asp:Button ID="btn_Submit4" runat="server" Text="送出" OnClick="btn_Submit4_Click" />
         <br/>
