@@ -27,7 +27,7 @@
         <asp:GridView ID="gv_show" runat="server" AllowPaging="True" AllowSorting="True" 
             AutoGenerateColumns="False" BackColor="White" BorderColor="#DEDFDE" BorderStyle="None" 
             BorderWidth="1px" CellPadding="4" DataKeyNames="Id" DataSourceID="sds_Users" ForeColor="Black" 
-            GridLines="Vertical" PageSize="6">
+            GridLines="Vertical" PageSize="6" OnRowCommand="gv_show_RowCommand" OnSelectedIndexChanged="gv_show_SelectedIndexChanged">
             <AlternatingRowStyle BackColor="White" />
             <Columns>
                 <asp:CommandField ButtonType="Button" ShowSelectButton="True" />
@@ -35,8 +35,8 @@
                 <asp:TemplateField HeaderText="Name" SortExpression="Name">
                     <EditItemTemplate>
                         <asp:DropDownList ID="dd1_Name" runat="server" SelectedValue='<%# Bind("Name") %>'>
-                            <asp:ListItem>大頭</asp:ListItem>
-                            <asp:ListItem>鐵頭</asp:ListItem>
+                            <asp:ListItem>小馬哥</asp:ListItem>
+                            <asp:ListItem>大牛哥</asp:ListItem>
                         </asp:DropDownList>
                     </EditItemTemplate>
                     <ItemTemplate>
@@ -55,6 +55,7 @@
                             OnClientClick ="return confirm('確認要刪除該筆資料');"/>
                     </ItemTemplate>
                 </asp:TemplateField>
+                <asp:ButtonField ButtonType="Button" CommandName="Cal" Text="按鈕" />
             </Columns>
             <FooterStyle BackColor="#CCCC99" />
             <HeaderStyle BackColor="#6B696B" Font-Bold="True" ForeColor="White" />
