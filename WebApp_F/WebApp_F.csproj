@@ -67,6 +67,7 @@
     </Reference>
   </ItemGroup>
   <ItemGroup>
+    <Content Include="w_20220107.aspx" />
     <Content Include="ch5-8.aspx" />
     <Content Include="ch5-8.xml" />
     <Content Include="Content\bootstrap-grid.css" />
@@ -96,6 +97,7 @@
     <Content Include="Test.aspx" />
     <Content Include="TicTacToe.aspx" />
     <Content Include="Web.config" />
+    <Content Include="w_20220107_2.aspx" />
     <Content Include="w_20211022.aspx" />
     <Content Include="w_20211022_2.aspx" />
     <Content Include="w_20211029.aspx" />
@@ -118,6 +120,13 @@
     <Content Include="w_20211224_2.aspx" />
   </ItemGroup>
   <ItemGroup>
+    <Compile Include="w_20220107.aspx.cs">
+      <DependentUpon>w_20220107.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="w_20220107.aspx.designer.cs">
+      <DependentUpon>w_20220107.aspx</DependentUpon>
+    </Compile>
     <Compile Include="ch5-8.aspx.cs">
       <DependentUpon>ch5-8.aspx</DependentUpon>
       <SubType>ASPXCodeBehind</SubType>
@@ -156,6 +165,13 @@
     </Compile>
     <Compile Include="TicTacToe.aspx.designer.cs">
       <DependentUpon>TicTacToe.aspx</DependentUpon>
+    </Compile>
+    <Compile Include="w_20220107_2.aspx.cs">
+      <DependentUpon>w_20220107_2.aspx</DependentUpon>
+      <SubType>ASPXCodeBehind</SubType>
+    </Compile>
+    <Compile Include="w_20220107_2.aspx.designer.cs">
+      <DependentUpon>w_20220107_2.aspx</DependentUpon>
     </Compile>
     <Compile Include="w_20211022.aspx.cs">
       <DependentUpon>w_20211022.aspx</DependentUpon>
